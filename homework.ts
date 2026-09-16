@@ -1,12 +1,8 @@
 // ========================================
-// Week 3 - TypeScript Homework
+// Week 3 - TypeScript Homework Part 2
 // ========================================
 
-// ========================================
-// Skill 1 - Union Types
-// ========================================
-
-// ID Card
+// Skill 1: Union Types
 
 type IDType = number | string;
 
@@ -18,8 +14,6 @@ console.log(showID(12345));
 console.log(showID("AB123"));
 
 
-// Fruit Basket
-
 type Fruit = "apple" | "banana" | "orange";
 
 const eatFruit = (fruit: Fruit): string => {
@@ -29,8 +23,6 @@ const eatFruit = (fruit: Fruit): string => {
 console.log(eatFruit("apple"));
 console.log(eatFruit("orange"));
 
-
-// Pass or Fail
 
 type Result = true | false;
 
