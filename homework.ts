@@ -28,3 +28,15 @@ const eatFruit = (fruit: Fruit): string => {
 
 console.log(eatFruit("apple"));
 console.log(eatFruit("orange"));
+
+
+// Pass or Fail
+
+type Result = true | false;
+
+const printResult = (result: Result): string => {
+  return result ? "Pass" : "Fail";
+};
+
+console.log(printResult(true));
+console.log(printResult(false));
